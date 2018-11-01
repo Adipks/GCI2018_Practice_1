@@ -1,0 +1,19 @@
+#code to print GCI is great 10 times
+for i in range(0,10):
+    print("GCI is great")
+    
+#Accept user's input
+name = input("Enter your name :")
+
+# Print the expected ouput
+print ("Hello "  + name + ",please to meet you!")
+
+# Code to reverse the accepted input
+str="" 
+
+for i in name:
+    str =  i + str
+    
+    
+# Print the output 
+print('Hello '+name+'pleased to meet you! Did you know that your name backwards is '+str+'?' ) 
